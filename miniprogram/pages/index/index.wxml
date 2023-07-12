@@ -1,0 +1,5 @@
+<!--index.wxml-->
+
+<qr-container text="{{ qrUrl }}" size='750' />
+
+<button bind:tap="checkLogin">检查是否扫码</button>
